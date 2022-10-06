@@ -1,1 +1,7 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.esquinas {
+  border-radius: 5px;
+}
+.rotated {
+  background-color: red;
+  transform: rotateY(180 deg);
+}
