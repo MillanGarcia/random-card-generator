@@ -15,6 +15,26 @@
     <script src="/src/app.js"></script>
   </head>
   <body>
+    <div style="margin-bottom:40px;">
+      <input
+        type="number"
+        id="wcard"
+        min="180"
+        placeholder="card-width (currently 180px)"
+        class="formsize"
+        value="180"
+      />
+      <input
+        type="number"
+        id="hcard"
+        min="300"
+        placeholder="card-height (currently 300px)"
+        class="formsize"
+        value="300"
+      />
+      <button id="btn" class="formsize">Change size</button>
+      <button id="btn2" class="formsize">Generate card</button>
+    </div>
     <div class="card">
       <div id="parte1"></div>
       <div id="parte2"></div>

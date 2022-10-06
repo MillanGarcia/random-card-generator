@@ -5,3 +5,7 @@
   background-color: red;
   transform: rotateY(180 deg);
 }
+.formsize {
+  height: 40px;
+  width: 300px;
+}
